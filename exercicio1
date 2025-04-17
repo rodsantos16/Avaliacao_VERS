@@ -1,0 +1,4 @@
+for linha in range(len(uso_cpu)):
+  for coluna in range(len(uso_cpu[linha])):
+    print(f'[{uso_cpu [linha] [coluna]}]', end='')
+  print()
